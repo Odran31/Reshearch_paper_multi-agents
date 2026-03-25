@@ -16,6 +16,8 @@ This project is designed for researchers, students, and developers who want to q
 
 The system is composed of **5 specialized agents**, each with a distinct role:
 
+![Demo](assets/pipeline.png)
+
 
 ---
 
