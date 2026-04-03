@@ -31,7 +31,31 @@ The system is composed of **5 specialized agents**, each with a distinct role:
 -  **Markdown Output** — Results formatted for easy reading, copy-paste, or integration
 
 ---
-
+##  Project Structure
+```
+arxiv-agent/
+│
+├── main.py                    # Entry point - Gradio UI + pipeline orchestration
+│
+├── agents/
+│   ├── __init__.py
+│   ├── agent_recherche.py     # Search agent - queries the arXiv API
+│   ├── agent_selection.py     # Selection agent - picks the 2 most relevant articles (LLM)
+│   ├── agent_editor.py        # Editor agent - writes detailed structured summaries (LLM)
+│   ├── agent_judge.py         # Judge agent - evaluates & improves summaries (LLM)
+│   └── agent_format.py        # Format agent - assembles the final Markdown output
+│
+├── utils/
+│   ├── __init__.py
+│   ├── article_info.py        # Metadata enrichment utility
+│   ├── arxiv.py               # arXiv API wrapper
+│   └── llama.py               # Groq / LLaMA 3.1 client wrapper
+│
+├── requirements.txt           # Python dependencies
+├── .env                       # Your API key
+└── readme.pdf                 # Project documentation
+```
+---
 
 ##  Interface
 
