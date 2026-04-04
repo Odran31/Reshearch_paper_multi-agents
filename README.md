@@ -12,7 +12,7 @@ This project is designed for researchers, students, and developers who want to q
 
 ---
 
-## Architecture — Multi-Agent Pipeline
+## Architecture - Multi-Agent Pipeline
 
 The system is composed of **5 specialized agents**, each with a distinct role:
 
@@ -83,11 +83,11 @@ The Gradio UI features:
 | Function | Role |
 |---|---|
 | `arxiv_search()` | Queries the ArXiv API and parses XML results |
-| `agent_recherche()` | Research agent — orchestrates the ArXiv search |
-| `agent_selection()` | Selection agent — uses LLaMA to pick the best 2 articles |
-| `agent_redacteur_par_article()` | Editor agent — writes detailed structured summaries |
-| `agent_judge()` | Judge agent — critiques and improves each summary |
-| `agent_format()` | Format agent — builds the final Markdown output |
+| `agent_recherche()` | Research agent - orchestrates the ArXiv search |
+| `agent_selection()` | Selection agent - uses LLaMA to pick the best 2 articles |
+| `agent_redacteur_par_article()` | Editor agent - writes detailed structured summaries |
+| `agent_judge()` | Judge agent - critiques and improves each summary |
+| `agent_format()` | Format agent - builds the final Markdown output |
 | `research_pipeline()` | Orchestrates the full multi-agent pipeline |
 
 ---
