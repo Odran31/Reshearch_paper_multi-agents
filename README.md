@@ -1,4 +1,4 @@
-#  Scientific Paper Research Agent — ArXiv AI Pipeline
+#  Scientific Paper Research Agent - ArXiv AI Pipeline
 
 > An intelligent multi-agent system that searches, selects, summarizes, and refines scientific articles from ArXiv — powered by LLaMA 3.1 and served through a Gradio web interface.
 
