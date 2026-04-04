@@ -51,10 +51,20 @@ arxiv-agent/
 │   ├── arxiv.py               # arXiv API wrapper
 │   └── llama.py               # Groq / LLaMA 3.1 client wrapper
 │
+├──mcp_arxiv.py
+├──mcp_llama_generate.py
 ├── requirements.txt           # Python dependencies
 ├── .env                       # Your API key
 └── readme.pdf                 # Project documentation
 ```
+---
+##  MCP Tools (Optional)
+
+The two core tools of this project are exposed as **MCP (Model Context Protocol) compatible servers**.
+This means they can be used as standalone tools by any MCP-compatible client independently from the Gradio interface.
+
+> These files are **fully optional** - `main.py` works without them.
+
 ---
 
 ##  Interface
